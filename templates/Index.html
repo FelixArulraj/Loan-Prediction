@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style type="text/css">
+            body{
+                background-size: cover;
+                background-repeat: no-repeat;
+                background-attachment: fixed;
+                background-position: center;
+            }
+
+        </style>
+    </head>
+    <body background="static\Groot baby.jpg">
+        
+        <center>
+            
+            <div class="header">
+                <font size="3".
+                    face="Times New Roman"
+                    color="red gold">
+                <br>
+                <h1 align="right">Loan Eligibility Check</h1>
+                <p align="right">please fill the inputs required*</p>
+                </font>
+              </div>
+
+            
+            <form method="POST", action="{{url_for('home')}}">
+                <style type="text/css">
+                form {
+                    text-align: right;
+                }
+                </style>
+                <b> 
+                    <br><br>
+                    <font size="3"
+                    face="Times New Roman"
+                    color="white"> 
+                    Loan Amount* :   <input type="text", name='a', placeholder= " enter loan amount "> <br><br>
+                    Applicant Income*  :  <input type="text", name='b', placeholder= " enter income "> <br><br>
+                    Coapplicant Income* :   <input type="text", name='c', placeholder= " enter co-applicants income "> <br><br>
+                    Loan_Amount Term*  :  <input type="text", name='d', placeholder= " enter term in months "> <br><br>
+                    Credit History*  :  <input type="text", name='e', placeholder= " if 'yes' enter 1, else enter 0 "> <br><br>
+
+                    </font>
+                </b>
+                <font size="3"
+                face="Times New Roman"
+                color="white">
+                <label for="Area">Property Area* :</label>
+                </font>
+                
+
+                <select name="Area" id="Area">
+                  <option value='Rural'>Rural</option>
+                  <option value='Urban'>Urban</option>
+                  <option value='Semiurban'>Semiurban</option>
+                </select>
+    
+                <br>
+                <br><br><input type="submit", value='Check Eligibility'>
+            </form> 
+        
+        </center>
+
+    </body>
+
+</html>
