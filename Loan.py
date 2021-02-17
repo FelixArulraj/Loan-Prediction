@@ -4,6 +4,7 @@ import numpy as np
 import matplotlib.pyplot as plt 
 import seaborn as sns 
 import pickle
+import xgboost
 
 train=pd.read_csv('train_ctrUa4K.csv')
 
