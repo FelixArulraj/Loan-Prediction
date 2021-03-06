@@ -1,2 +1,2 @@
 # Loan-Prediction
-This is the machine learning web application built with python and deployed in heroku.
+I have built a web application using Flask Framework and currently deployed in heroku. This web app will predict whether the customer is eligibile fo rloan or not , based on their loan amount, term, applicant income, property area ,credit history etc.
